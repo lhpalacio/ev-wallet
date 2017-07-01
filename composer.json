@@ -1,0 +1,20 @@
+{
+    "name": "lhpalacio/wallet",
+    "description": "PHP implementation of wallet using Event Sourcing",
+    "require": {
+        "ramsey/uuid": "^3.6",
+        "moneyphp/money": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lhpalacio\\Wallet\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lhpalacio",
+            "email": "lhpalacio@outlook.com"
+        }
+    ]
+}
